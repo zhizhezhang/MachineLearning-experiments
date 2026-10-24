@@ -1,0 +1,108 @@
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+# 已忽略包含查询文件的默认文件夹
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+# ===== Python 字节码与缓存 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# ===== 分发/打包 =====
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# ===== 测试与覆盖率 =====
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ===== 机器学习 / 深度学习大文件（不提交权重与数据集）=====
+*.pth
+*.pt
+*.onnx
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+*.pb
+*.tflite
+*.caffemodel
+
+# 数据集目录（按需保留/删除下面两行）
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ===== PyTorch / TensorBoard 日志 =====
+runs/
+logs/
+*.log
+lightning_logs/
+events.out.tfevents.*
+
+# ===== IDE：PyCharm / IntelliJ =====
+# 保留 misc.xml / modules.xml 等项目结构配置，仅忽略个人工作区状态
+.idea/workspace.xml
+.idea/shelf/
+.idea/.name
+.idea/dictionaries/
+.idea/inspectionProfiles/
+.idea/**/usage.statistics.xml
+.idea/**/dsn.xml
+.idea/**/dataSources/
+.idea/**/dataSources.local.xml
+
+# ===== IDE：VS Code =====
+.vscode/
+
+# ===== 环境变量与密钥 =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ===== 操作系统生成文件 =====
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ===== 临时文件 =====
+*.tmp
+*.bak
+*.swp
+*~
